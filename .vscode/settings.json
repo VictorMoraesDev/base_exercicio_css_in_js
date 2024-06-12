@@ -1,6 +1,14 @@
 {
+<<<<<<< HEAD
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
   }
 }
+=======
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  }
+>>>>>>> 6b75ea68847c2a67da4aa2679f111c99ca9da97a

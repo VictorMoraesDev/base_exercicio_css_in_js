@@ -42,6 +42,7 @@
     ]
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@eslint/js": "^9.4.0",
     "@types/styled-components": "^5.1.25",
     "@typescript-eslint/eslint-plugin": "^5.52.0",
@@ -54,5 +55,16 @@
     "globals": "^15.4.0",
     "prettier": "^2.8.4",
     "typescript-eslint": "^7.12.0"
+=======
+    "@types/styled-components": "^5.1.26",
+    "@typescript-eslint/eslint-plugin": "^5.52.0",
+    "@typescript-eslint/parser": "^5.52.0",
+    "eslint": "^8.34.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.4"
+>>>>>>> 6b75ea68847c2a67da4aa2679f111c99ca9da97a
   }
 }
