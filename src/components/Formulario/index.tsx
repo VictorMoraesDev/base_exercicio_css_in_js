@@ -1,13 +1,12 @@
 import React from 'react';
-import { FormContainer, ButtonPesquisar, Campo } from './styles';
+import { FormContainer, ButtonPesquisar } from './styles';
+import Campo from './Campo';
 
-const Formulario: React.FC = () => {
-  return (
-    <FormContainer>
-      <Campo type="text" placeholder="Digite sua busca" />
-      <ButtonPesquisar>Pesquisar</ButtonPesquisar>
-    </FormContainer>
-  );
-};
+const Formulario = () => (
+  <FormContainer>
+    <Campo type="text" placeholder="Digite sua busca" />
+    <ButtonPesquisar>Pesquisar</ButtonPesquisar>
+  </FormContainer>
+);
 
 export default Formulario;
