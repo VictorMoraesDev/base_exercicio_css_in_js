@@ -1,10 +1,6 @@
-import React from 'react';
-import { HeaderContainer, Logo } from './Cabecalho.styles';
+import React from 'react'
+import { HeaderContainer, Logo } from './Cabecalho.styles'
 
-const Cabecalho: React.FC = () => (
-  <HeaderContainer>
- <img height="180em" src="https://github-readme-stats.vercel.app/api?username=USUARIO&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  </HeaderContainer>
-);
+const Cabecalho: React.FC = () => <></>
 
-export default Cabecalho;
+export default Cabecalho

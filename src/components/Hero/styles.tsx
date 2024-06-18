@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const HeroContainer = styled.section`
   height: 360px;
@@ -8,7 +8,7 @@ export const HeroContainer = styled.section`
   position: relative;
   display: flex;
   align-items: center;
-`;
+`
 
 export const HeroOverlay = styled.div`
   position: absolute;
@@ -18,12 +18,12 @@ export const HeroOverlay = styled.div`
   height: 100%;
   background-color: var(--cor-principal);
   opacity: 0.7;
-`;
+`
 
 export const HeroContent = styled.div`
   position: relative;
   color: #eee;
-`;
+`
 
 export const HeroTitle = styled.h1`
   font-family: Gloock, serif;
@@ -32,4 +32,4 @@ export const HeroTitle = styled.h1`
   @media (max-width: 768px) {
     font-size: 32px;
   }
-`;
+`
